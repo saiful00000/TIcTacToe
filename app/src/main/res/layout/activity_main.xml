@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player 1 : "
+
+            />
+
+        <EditText
+            android:id="@+id/player1_et_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter name"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player 1 : "
+
+            />
+
+        <EditText
+            android:id="@+id/player2_et_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter player two name" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@drawable/tictactoebackground"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/r0c0_imgview_id"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="onClickView"
+                    android:padding="5dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/r0c1_imgview_id"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="onClickView"
+                    android:padding="5dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/r0c2_imgview_id"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="onClickView"
+                    android:padding="5dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/r1c0_imgview_id"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="onClickView"
+                    android:padding="5dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/r1c1_imgview_id"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="onClickView"
+                    android:padding="5dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/r1c2_imgview_id"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="onClickView"
+                    android:padding="5dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/r2c0_imgview_id"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="onClickView"
+                    android:padding="5dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/r2c1_imgview_id"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="onClickView"
+                    android:padding="5dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/r2c2_imgview_id"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:onClick="onClickView"
+                    android:padding="5dp"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check Table"
+                android:id="@+id/btnid"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
